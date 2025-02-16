@@ -10,8 +10,8 @@
 TinyGPSPlus gps;
 HardwareSerial mySerial(2);
 
-const int rightServoPin = 2;  
-const int leftServoPin = 4;  
+const int rightServoPin = 26;  
+const int leftServoPin = 25;  
 
 Servo servoRight;
 Servo servoLeft;
