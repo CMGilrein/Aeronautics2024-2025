@@ -2048,6 +2048,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -2183,6 +2265,298 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "custom:MS0850502F030P1A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.0923 5.6015 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MS0850502F030P1A"
+				(at -5.0887 -7.633 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MS0850502F030P1A:SW_MS0850502F030P1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MS0850502F030P1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-SWITCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MS0850502F030P1A_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.334 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy 3.048 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 5.588 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2437,8 +2811,160 @@
 		(uuid "ca2b3940-b238-4ddb-ab7c-1f7217d2dc6f")
 	)
 	(no_connect
+		(at 143.51 77.47)
+		(uuid "0427372b-50ab-4ad4-8470-571d138ac43e")
+	)
+	(no_connect
+		(at 127 106.68)
+		(uuid "1112fa73-d1a8-4913-9bf8-3e68e2246f23")
+	)
+	(no_connect
+		(at 104.14 52.07)
+		(uuid "214b96a2-b838-447e-b5ec-c5a9ee2ac191")
+	)
+	(no_connect
+		(at 143.51 36.83)
+		(uuid "25b07211-36c1-4791-9748-2397054a5478")
+	)
+	(no_connect
+		(at 143.51 74.93)
+		(uuid "2854eded-1f09-42c0-a1ed-871794a4ac09")
+	)
+	(no_connect
+		(at 104.14 39.37)
+		(uuid "2f1993ea-aa09-4df1-838c-712726c7ab66")
+	)
+	(no_connect
+		(at 143.51 67.31)
+		(uuid "2fd8b787-1093-4416-b2c6-04567be89868")
+	)
+	(no_connect
+		(at 226.06 99.06)
+		(uuid "3016a2d5-1997-48bb-bba5-b722049718d9")
+	)
+	(no_connect
+		(at 120.65 154.94)
+		(uuid "31f42feb-9dc3-4e7d-99f6-62fa7d79a42e")
+	)
+	(no_connect
+		(at 226.06 71.12)
+		(uuid "334846f8-42d3-462e-90c1-8ae33a64f2ad")
+	)
+	(no_connect
+		(at 143.51 52.07)
+		(uuid "33e8563e-df59-49b9-afdc-5b7e80a8939f")
+	)
+	(no_connect
+		(at 124.46 106.68)
+		(uuid "35df3534-534f-40a1-86ee-b1d554a1774d")
+	)
+	(no_connect
+		(at 226.06 104.14)
+		(uuid "42b18fea-2a21-43a8-b3b3-3254e4096352")
+	)
+	(no_connect
+		(at 143.51 64.77)
+		(uuid "481912e1-b3c5-4dce-baf0-24643a270e7c")
+	)
+	(no_connect
+		(at 44.45 111.76)
+		(uuid "52936447-98dc-40e4-89b6-1e1adf00a56d")
+	)
+	(no_connect
 		(at 115.57 157.48)
 		(uuid "531c4fa9-7237-4c1b-8fa8-065dfa3f489f")
+	)
+	(no_connect
+		(at 143.51 69.85)
+		(uuid "5a991b11-4ab4-48fa-b5dd-8c066380698f")
+	)
+	(no_connect
+		(at 143.51 41.91)
+		(uuid "5f0259c4-8bbd-47a9-829d-500fd9715d35")
+	)
+	(no_connect
+		(at 226.06 101.6)
+		(uuid "693aee1f-ed08-460a-ad49-09e6b5e33705")
+	)
+	(no_connect
+		(at 91.44 148.59)
+		(uuid "7281c074-bc4e-4d47-be39-57e956acbb9c")
+	)
+	(no_connect
+		(at 104.14 49.53)
+		(uuid "77939a44-7072-4830-9a45-35ea955cfb76")
+	)
+	(no_connect
+		(at 104.14 74.93)
+		(uuid "7867475f-4776-4665-917f-dd406b7518d7")
+	)
+	(no_connect
+		(at 104.14 64.77)
+		(uuid "8125d85e-79a1-4460-969a-32c22b2317d7")
+	)
+	(no_connect
+		(at 143.51 57.15)
+		(uuid "8602091e-c391-4d4c-b573-a90b88b7ff6c")
+	)
+	(no_connect
+		(at 104.14 38.1)
+		(uuid "8bfbf3f4-2d69-4ecf-aab7-cce2ca4abe9a")
+	)
+	(no_connect
+		(at 143.51 80.01)
+		(uuid "9190125b-41c7-465c-8fc5-ae911de84753")
+	)
+	(no_connect
+		(at 104.14 59.69)
+		(uuid "95d4e2af-b078-494d-a248-9e03ebe97ca8")
+	)
+	(no_connect
+		(at 104.14 41.91)
+		(uuid "9c2c2341-2665-47d2-8d47-4eec7c4fd67d")
+	)
+	(no_connect
+		(at 104.14 72.39)
+		(uuid "a2a167b1-b972-47d1-92a6-a56f43d4a1eb")
+	)
+	(no_connect
+		(at 104.14 46.99)
+		(uuid "a58ff870-35ef-4cc8-8fbf-1e491e4b356d")
+	)
+	(no_connect
+		(at 104.14 69.85)
+		(uuid "aec4b730-6fae-443f-b2d8-dc836bfc651b")
+	)
+	(no_connect
+		(at 129.54 106.68)
+		(uuid "ba0b1dca-f9e3-4e5a-bd87-b9de991417e2")
+	)
+	(no_connect
+		(at 226.06 123.19)
+		(uuid "bada9c78-6d34-4a7e-9190-f5b0e00558ea")
+	)
+	(no_connect
+		(at 104.14 62.23)
+		(uuid "c7e0e98f-70fc-4f45-847c-c56536f1af58")
+	)
+	(no_connect
+		(at 121.92 106.68)
+		(uuid "cb23514b-a45b-4574-aa68-b7477c7161c9")
+	)
+	(no_connect
+		(at 143.51 54.61)
+		(uuid "d0aaf300-5ecb-4e96-af3f-b00ef7437865")
+	)
+	(no_connect
+		(at 104.14 36.83)
+		(uuid "d481af6b-56aa-491e-a981-4fcfa3609c4f")
+	)
+	(no_connect
+		(at 226.06 106.68)
+		(uuid "ea08a3aa-8225-4748-bece-bccfd75875bc")
+	)
+	(no_connect
+		(at 143.51 44.45)
+		(uuid "edfcfa34-aa78-424a-b8e7-e19b15aefb7f")
 	)
 	(wire
 		(pts
@@ -2449,6 +2975,16 @@
 			(type default)
 		)
 		(uuid "000c3d8b-7bbd-4e19-8a78-a3ca32a9e5b8")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 248.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0309a984-2e6c-4b98-91fc-dd494f5e034e")
 	)
 	(wire
 		(pts
@@ -2842,6 +3378,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fba7af7-b8b0-4bd2-b0b6-f6c01fd26cde")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 172.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6074bf9b-a8cc-4a1a-9d54-98d40a9d8691")
+	)
+	(wire
+		(pts
 			(xy 226.06 86.36) (xy 251.46 86.36)
 		)
 		(stroke
@@ -2979,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "8b3f89f8-070a-4f7e-a554-80909a877095")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0317eb-286b-44f7-85ea-87e0e8a96df3")
 	)
 	(wire
 		(pts
@@ -3169,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "defb030a-de06-48dc-bf0b-f19bf80d6f8f")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df272735-1bac-4dc7-980b-265c27660377")
 	)
 	(wire
 		(pts
@@ -3365,6 +3941,7 @@
 	)
 	(label "Vin"
 		(at 40.64 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3375,6 +3952,7 @@
 	)
 	(label "INT_MPU"
 		(at 129.54 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3385,6 +3963,7 @@
 	)
 	(label "GPIO25"
 		(at 251.46 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,6 +3974,7 @@
 	)
 	(label "GPIO15"
 		(at 143.51 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3405,6 +3985,7 @@
 	)
 	(label "Left_servo_pwm"
 		(at 46.99 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3415,6 +3996,7 @@
 	)
 	(label "GPIO0"
 		(at 143.51 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3425,6 +4007,7 @@
 	)
 	(label "GPIO10_TX1"
 		(at 104.14 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,6 +4018,7 @@
 	)
 	(label "5V"
 		(at 62.23 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3445,6 +4029,7 @@
 	)
 	(label "SDA_mag"
 		(at 226.06 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3455,6 +4040,7 @@
 	)
 	(label "GPIO3_RX0"
 		(at 143.51 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3465,6 +4051,7 @@
 	)
 	(label "3_3V"
 		(at 111.76 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3475,6 +4062,7 @@
 	)
 	(label "GPIO19_MISO"
 		(at 143.51 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3485,6 +4073,7 @@
 	)
 	(label "GND"
 		(at 69.85 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,6 +4084,7 @@
 	)
 	(label "TXD_GPS"
 		(at 83.82 148.59 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,6 +4095,7 @@
 	)
 	(label "RXD_GPS"
 		(at 86.36 148.59 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3515,6 +4106,7 @@
 	)
 	(label "SCL_mag"
 		(at 226.06 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3525,6 +4117,7 @@
 	)
 	(label "GPIO36"
 		(at 104.14 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3535,6 +4128,7 @@
 	)
 	(label "GPIO21_I2C_SDA"
 		(at 248.92 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3545,6 +4139,7 @@
 	)
 	(label "GPIO21_I2C_SDA"
 		(at 143.51 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3555,6 +4150,7 @@
 	)
 	(label "SCL_MPU"
 		(at 226.06 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3565,6 +4161,7 @@
 	)
 	(label "GPIO4"
 		(at 143.51 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3575,6 +4172,7 @@
 	)
 	(label "GPIO22_I2C_SCL"
 		(at 143.51 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3583,8 +4181,20 @@
 		)
 		(uuid "3e5c3287-f950-4cdb-aaa6-e3fdeb6271fb")
 	)
+	(label "NC_PIN"
+		(at 190.5 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c3ef5e-136f-4697-875f-ff855e7c7206")
+	)
 	(label "GPIO27"
 		(at 104.14 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3593,8 +4203,20 @@
 		)
 		(uuid "4226cd23-6132-41c0-a1d3-d1e286239576")
 	)
+	(label "GPIO34"
+		(at 248.92 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "429f17ba-761c-4685-99ea-e747e7ea6ed1")
+	)
 	(label "GPIO16_RX2"
 		(at 143.51 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3605,6 +4227,7 @@
 	)
 	(label "ADD_MPU"
 		(at 127 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3615,6 +4238,7 @@
 	)
 	(label "5V"
 		(at 62.23 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3623,8 +4247,20 @@
 		)
 		(uuid "46eb7726-44ae-4eee-87c1-ec44e9b5c558")
 	)
+	(label "NO_PIN"
+		(at 226.06 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d2ba39c-9d08-4fc5-a83a-495f67543f88")
+	)
 	(label "DRDY_mag"
 		(at 44.45 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,6 +4271,7 @@
 	)
 	(label "DRDY_mag"
 		(at 226.06 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3645,6 +4282,7 @@
 	)
 	(label "GND"
 		(at 143.51 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3655,6 +4293,7 @@
 	)
 	(label "GPIO1_TX0"
 		(at 143.51 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3665,6 +4304,7 @@
 	)
 	(label "3_3V"
 		(at 81.28 148.59 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3675,6 +4315,7 @@
 	)
 	(label "GPIO8_Flash_D1"
 		(at 143.51 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,8 +4324,20 @@
 		)
 		(uuid "6c99f289-6ccc-4193-a0d9-29aa03711ae4")
 	)
+	(label "NC_PIN"
+		(at 226.06 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d944aed-bcde-4256-85cf-a4320d12cf39")
+	)
 	(label "GPIO5_SS"
 		(at 143.51 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3695,6 +4348,7 @@
 	)
 	(label "GPIO9_RX1"
 		(at 104.14 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,6 +4359,7 @@
 	)
 	(label "INT_MPU"
 		(at 226.06 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3715,6 +4370,7 @@
 	)
 	(label "GPIO16_RX2"
 		(at 248.92 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,6 +4381,7 @@
 	)
 	(label "RST_EN"
 		(at 104.14 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3735,6 +4392,7 @@
 	)
 	(label "XDA_MPU"
 		(at 121.92 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3745,6 +4403,7 @@
 	)
 	(label "GPIO11"
 		(at 104.14 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3755,6 +4414,7 @@
 	)
 	(label "GPIO35"
 		(at 104.14 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3765,6 +4425,7 @@
 	)
 	(label "Left_servo_pwm"
 		(at 226.06 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3775,6 +4436,7 @@
 	)
 	(label "GND"
 		(at 143.51 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3785,6 +4447,7 @@
 	)
 	(label "SDA_MPU"
 		(at 226.06 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3795,6 +4458,7 @@
 	)
 	(label "RXD_GPS"
 		(at 226.06 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3803,8 +4467,20 @@
 		)
 		(uuid "80507895-51f6-433f-9ca4-1f46681f888d")
 	)
+	(label "GND"
+		(at 167.64 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8973ffdc-da32-41fd-89b2-54709ac42bc5")
+	)
 	(label "Vin"
 		(at 120.65 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3815,6 +4491,7 @@
 	)
 	(label "Light Toggle"
 		(at 226.06 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3825,6 +4502,7 @@
 	)
 	(label "GPIO22_I2C_SCL"
 		(at 248.92 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3835,6 +4513,7 @@
 	)
 	(label "GPIO21_I2C_SDA"
 		(at 251.46 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3845,6 +4524,7 @@
 	)
 	(label "SCL_MPU"
 		(at 116.84 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3855,6 +4535,7 @@
 	)
 	(label "XCL_MPU"
 		(at 124.46 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3865,6 +4546,7 @@
 	)
 	(label "GPIO17_TX2"
 		(at 248.92 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,6 +4557,7 @@
 	)
 	(label "GPIO32"
 		(at 104.14 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3885,6 +4568,7 @@
 	)
 	(label "GND"
 		(at 114.3 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3895,6 +4579,7 @@
 	)
 	(label "3_3V"
 		(at 104.14 34.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3905,6 +4590,7 @@
 	)
 	(label "GPIO2"
 		(at 143.51 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3915,6 +4601,7 @@
 	)
 	(label "GPIO18_SCK"
 		(at 143.51 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3925,6 +4612,7 @@
 	)
 	(label "GND"
 		(at 67.31 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3935,6 +4623,7 @@
 	)
 	(label "GPIO14"
 		(at 104.14 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3945,6 +4634,7 @@
 	)
 	(label "Light Toggle"
 		(at 120.65 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3955,6 +4645,7 @@
 	)
 	(label "TXD_GPS"
 		(at 226.06 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3965,6 +4656,7 @@
 	)
 	(label "GPIO26"
 		(at 104.14 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,6 +4667,7 @@
 	)
 	(label "GPIO33"
 		(at 104.14 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,6 +4678,7 @@
 	)
 	(label "GPIO39"
 		(at 104.14 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3995,6 +4689,7 @@
 	)
 	(label "GND"
 		(at 88.9 148.59 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4005,6 +4700,7 @@
 	)
 	(label "ADD_MPU"
 		(at 226.06 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,6 +4711,7 @@
 	)
 	(label "Right_servo_pwm"
 		(at 226.06 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4025,6 +4722,7 @@
 	)
 	(label "SDA_MPU"
 		(at 119.38 106.68 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4035,6 +4733,7 @@
 	)
 	(label "XCL_MPU"
 		(at 226.06 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4045,6 +4744,7 @@
 	)
 	(label "5V"
 		(at 104.14 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,6 +4755,7 @@
 	)
 	(label "GND"
 		(at 40.64 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,6 +4766,7 @@
 	)
 	(label "GPIO23"
 		(at 143.51 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4075,6 +4777,7 @@
 	)
 	(label "GPIO17_TX2"
 		(at 143.51 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,6 +4788,7 @@
 	)
 	(label "GPIO7_Flash_D0"
 		(at 143.51 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4093,8 +4797,20 @@
 		)
 		(uuid "cbbc8b84-61fd-4206-85fe-cca98edf7124")
 	)
+	(label "NO_PIN"
+		(at 190.5 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd07a9b-c0d0-4e18-85fd-62c52491748e")
+	)
 	(label "GPIO6_Flash_CLK"
 		(at 143.51 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4105,6 +4821,7 @@
 	)
 	(label "Right_servo_pwm"
 		(at 46.99 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4115,6 +4832,7 @@
 	)
 	(label "GPIO25"
 		(at 104.14 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4125,6 +4843,7 @@
 	)
 	(label "GPIO26"
 		(at 251.46 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4135,6 +4854,7 @@
 	)
 	(label "3_3V"
 		(at 44.45 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4145,6 +4865,7 @@
 	)
 	(label "PPS"
 		(at 226.06 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4155,6 +4876,7 @@
 	)
 	(label "SCL_mag"
 		(at 44.45 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,6 +4887,7 @@
 	)
 	(label "GPIO13"
 		(at 104.14 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,6 +4898,7 @@
 	)
 	(label "XDA_MPU"
 		(at 226.06 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4183,8 +4907,20 @@
 		)
 		(uuid "e24cfd25-08c7-41d2-97b7-97ab64c3aa00")
 	)
+	(label "GPIO11"
+		(at 248.92 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e28551cb-3965-4633-b807-70330d16803b")
+	)
 	(label "GPIO15"
 		(at 251.46 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4195,6 +4931,7 @@
 	)
 	(label "GPIO22_I2C_SCL"
 		(at 251.46 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4205,6 +4942,7 @@
 	)
 	(label "GND"
 		(at 104.14 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4215,6 +4953,7 @@
 	)
 	(label "GPIO12"
 		(at 104.14 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4225,6 +4964,7 @@
 	)
 	(label "GPIO34"
 		(at 104.14 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4235,6 +4975,7 @@
 	)
 	(label "5V"
 		(at 78.74 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,6 +4986,7 @@
 	)
 	(label "GND"
 		(at 120.65 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4255,6 +4997,7 @@
 	)
 	(label "SDA_mag"
 		(at 44.45 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4265,6 +5008,7 @@
 	)
 	(label "PPS"
 		(at 91.44 148.59 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4275,6 +5019,7 @@
 	)
 	(label "GND"
 		(at 40.64 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4285,6 +5030,7 @@
 	)
 	(label "GND"
 		(at 44.45 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,6 +5174,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 58.42 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1194a4ae-4313-4185-9a79-74b6b740f6b1")
+		(property "Reference" "H3"
+			(at 60.96 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 60.96 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 58.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 58.42 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Glider_Revision"
+				(path "/72fcc4e1-c40e-4267-bf01-d2e3a7695862"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 149.86 270)
 		(unit 1)
@@ -4522,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 119.38 116.84 0)
 			(effects
 				(font
@@ -4608,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -4747,7 +5557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
 			(at 129.54 57.15 0)
 			(effects
 				(font
@@ -4998,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 110.49 144.78 0)
 			(effects
 				(font
@@ -5066,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -5178,6 +5988,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64230f1d-52dd-45b7-948c-d4733e8154b2")
+		(property "Reference" "H1"
+			(at 22.86 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/72fcc4e1-c40e-4267-bf01-d2e3a7695862"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x19_Pin")
 		(at 119.38 57.15 180)
 		(unit 1)
@@ -5204,7 +6078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
 			(at 119.38 57.15 0)
 			(effects
 				(font
@@ -5590,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 34.29 116.84 0)
 			(effects
 				(font
@@ -5708,6 +6582,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfef79e-698a-48bf-96a8-32c28d21e3b4")
+		(property "Reference" "H4"
+			(at 80.01 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 77.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Glider_Revision"
+				(path "/72fcc4e1-c40e-4267-bf01-d2e3a7695862"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:L7805")
 		(at 60.96 31.75 0)
 		(unit 1)
@@ -5733,7 +6671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3P-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 61.595 35.56 0)
 			(effects
 				(font
@@ -5805,7 +6743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 110.49 154.94 0)
 			(effects
 				(font
@@ -5984,6 +6922,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 17.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9f4dd5a-76b1-4829-b8c5-84dd831ada41")
+		(property "Reference" "H2"
+			(at 41.91 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 39.37 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Glider_Revision"
+				(path "/72fcc4e1-c40e-4267-bf01-d2e3a7695862"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 86.36 158.75 90)
 		(unit 1)
@@ -6009,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 86.36 158.75 0)
 			(effects
 				(font
@@ -6088,7 +7090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 45.4152 129.54 0)
 			(effects
 				(font
@@ -6131,6 +7133,168 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:MS0850502F030P1A")
+		(at 180.34 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceeaf679-b715-48ee-bdb0-d145cb6e4ed0")
+		(property "Reference" "S1"
+			(at 180.467 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS0850502F030P1A"
+			(at 180.467 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SW_MS0850502F030P1A"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A\n                        \n"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MS0850502F030P1A"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-SWITCH"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b608111-1e29-400e-ad7b-42a42a967cf9")
+		)
+		(pin "3"
+			(uuid "d95523fa-a8b7-42ee-8aee-3e30f83c9812")
+		)
+		(pin "2"
+			(uuid "3e22e374-5bd2-4f80-8ff0-7579e86173d4")
+		)
+		(instances
+			(project ""
+				(path "/72fcc4e1-c40e-4267-bf01-d2e3a7695862"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 16.51 31.75 0)
 		(unit 1)
@@ -6155,7 +7319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 16.51 31.75 0)
 			(effects
 				(font
